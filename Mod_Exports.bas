@@ -409,7 +409,7 @@ End Sub
 
 Sub CreateReportPdfs(ByVal PdfType As String, ByVal PdfWorkbook As Workbook, Optional ByVal ReportDate As String)
 '// This sub will create and save pdfs of the daily or weekly report.
-'// Created by Antonio Lasslle on 10/25/2024.
+'// Created by "" on 10/25/2024.
     
     '// Verify if admin toggled exports to pdf off.
     If ThisWorkbook.Worksheets("Admin").Range("B4") = "No" Then Exit Sub
